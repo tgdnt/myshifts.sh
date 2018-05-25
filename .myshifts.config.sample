@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Configure your variables and rename this file to .myshifts.config
+
+khal="/usr/local/bin/khal" # Path to Khal
+calendar="Main" # Calendar name as in Khal
+shiftlength="8H30M" # The length of your shifts
+eventname="Work" # Name of the events
+dateformat="%m.%d" # Enter your Khal dateformat
+sync=1 # Set to 1 to run vdirsyncer sync at end of script
+vdirsyncer="/usr/local/bin/vdirsyncer" # Path to vdirsyncer
