@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source .myshifts.config # Import your variables
+source "$(dirname $0)/.myshifts.config" # Import your variables
 
 startdate="$1" # Pick up date
 shift
